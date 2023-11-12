@@ -4,7 +4,7 @@ env:
     OEM: realme
     LOCAL_MANIFEST: https://github.com/ij-israfil/local_manifest.git -b evox-a14
     TARGET: evolution 
-    LUNCH_COMBO: evolution_${DEVICE}-userdebug
+    LUNCH_COMBO: evolution_${DEVICE}-eng
     OUTPUT: e*.zip
     CLO: Drive3:Evox
     CLO_1: ENCRYPTED[!584b549b7e1c7497c082e4d6e651f4b0008588b42560261fb5f9403d605095512d3ca0791166992f4a3bc13a3a71cd38!]

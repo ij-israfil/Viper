@@ -1,15 +1,15 @@
 env:
-    MANIFEST: https://github.com/SuperiorOS/manifest.git -b thirteen --depth=1
+    MANIFEST: https://github.com/crdroidandroid/android.git -b 13.0 --git-lfs --depth=1
     DEVICE: RMX1901
     OEM: realme
-    LOCAL_MANIFEST: https://github.com/ij-israfil/local_manifest.git -b superior 
+    LOCAL_MANIFEST: https://github.com/ij-israfil/local_manifest.git -b crdroid-13
     TARGET: bacon
-    LUNCH_COMBO: superior_${DEVICE}-userdebug
+    LUNCH_COMBO: lineage_${DEVICE}-userdebug
     OUTPUT: S*.zip
-    CLO: drivex1:superior
+    #CLO: drivex1:superior
     #CLO_1: ENCRYPTED[!a58fc3c6199cc26bd840c8905e8ac41aac52f41609791f60db8cacba7889c523b70ebe2a6639e864f0d34715f0d1e3bc!]
-    URI: ENCRYPTED[!06f4356e9e444a21a840b98089cb5fbb19dd373ef91f4fdd1aecf2de8b5bb09a7d29fadfcaa8f0af5173737f8c28b59a!]
-    ROM_U: 1
+    #URI: ENCRYPTED[!06f4356e9e444a21a840b98089cb5fbb19dd373ef91f4fdd1aecf2de8b5bb09a7d29fadfcaa8f0af5173737f8c28b59a!]
+    ROM_U: 0
     
 task:
   name: "build"
